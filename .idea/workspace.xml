@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9af1ac5b-e7ac-4341-9642-318d4af8bd05" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/homework/task5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework/task5.java" afterDir="false" />
+    <list default="true" id="9af1ac5b-e7ac-4341-9642-318d4af8bd05" name="Changes" comment="Task 5 done. COdes are added">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/task6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework/task6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +40,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.task5.Test.executor": "Run",
+    "JUnit.task6.Test.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
@@ -47,7 +53,7 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.task6.Test">
     <configuration name="task5.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Homework_Automation" />
       <extension name="coverage">
@@ -64,8 +70,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="task6.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_Homework_Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homework" />
+      <option name="MAIN_CLASS_NAME" value="homework.task6" />
+      <option name="METHOD_NAME" value="Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.task6.Test" />
         <item itemvalue="JUnit.task5.Test" />
       </list>
     </recent_temporary>
@@ -79,6 +102,19 @@
       <option name="presentableId" value="Default" />
       <updated>1725473566928</updated>
     </task>
+    <task id="LOCAL-00001" summary="Task 5 done. COdes are added">
+      <option name="closed" value="true" />
+      <created>1725550481989</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725550481989</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Task 5 done. COdes are added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 5 done. COdes are added" />
   </component>
 </project>
