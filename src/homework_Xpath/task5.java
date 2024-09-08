@@ -1,0 +1,40 @@
+package homework_Xpath;
+
+import Utility.Basedriver;
+import Utility.MyFunc;
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+public class task5  extends Basedriver {
+    @Test
+    public void  Test(){
+        /*
+        Bu websitesine gidiniz. [https://testpages.herokuapp.com/styled/index.html]
+
+        Fake Alerts' tıklayınız.
+
+        Show Alert Box'a tıklayınız.
+
+        Ok'a tıklayınız.
+
+        Alert kapanmalıdır.
+
+         */
+
+        driver.get("https://testpages.herokuapp.com/styled/index.html");
+        MyFunc.bekle(2);
+        WebElement fakeAlert= driver.findElement(By.cssSelector("[href='alerts/fake-alert-test.html']"));
+        fakeAlert.click();
+        MyFunc.bekle(2);
+
+        WebElement click=driver.findElement(By.cssSelector("[value='Show fake alert box']"));
+        click.click();
+        MyFunc.bekle(2);
+        WebElement fakeButon= driver.findElement(By.cssSelector("[class='dialog-button']"));
+        fakeButon.click();
+
+        BekleKapat();
+
+    }
+}

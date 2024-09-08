@@ -4,14 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9af1ac5b-e7ac-4341-9642-318d4af8bd05" name="Changes" comment="Task 5 done. COdes are added">
+    <list default="true" id="9af1ac5b-e7ac-4341-9642-318d4af8bd05" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/homework_Xpath/task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework_Xpath/task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework_Xpath/task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework_Xpath/task4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework_Xpath/task5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework_Xpath/task6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework/task6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework/task6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,7 +44,9 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2lcJjDDbMpMSU7pXV4dpLL9vBHE" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -110,11 +124,31 @@
       <option name="project" value="LOCAL" />
       <updated>1725550481989</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Task 6 is done">
+      <option name="closed" value="true" />
+      <created>1725550730453</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725550730453</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Task 5 done. COdes are added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 5 done. COdes are added" />
+    <MESSAGE value="Task 6 is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 6 is done" />
   </component>
 </project>
