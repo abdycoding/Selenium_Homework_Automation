@@ -24,14 +24,14 @@ public class task5  extends Basedriver {
 
         driver.get("https://testpages.herokuapp.com/styled/index.html");
         MyFunc.bekle(2);
-        WebElement fakeAlert= driver.findElement(By.cssSelector("[href='alerts/fake-alert-test.html']"));
+        WebElement fakeAlert= driver.findElement(By.xpath("//a[@href='alerts/fake-alert-test.html']"));
         fakeAlert.click();
         MyFunc.bekle(2);
 
-        WebElement click=driver.findElement(By.cssSelector("[value='Show fake alert box']"));
+        WebElement click=driver.findElement(By.xpath("//input[@value='Show fake alert box']"));
         click.click();
         MyFunc.bekle(2);
-        WebElement fakeButon= driver.findElement(By.cssSelector("[class='dialog-button']"));
+        WebElement fakeButon= driver.findElement(By.xpath("//button[@class='dialog-button']"));
         fakeButon.click();
 
         BekleKapat();

@@ -22,14 +22,14 @@ Alert kapanmalıdır.
          */
         driver.get("https://testpages.herokuapp.com/styled/index.html");
         MyFunc.bekle(2);
-        WebElement fakeAlert= driver.findElement(By.cssSelector("[href='alerts/fake-alert-test.html']"));
+        WebElement fakeAlert= driver.findElement(By.xpath("//a[@href='alerts/fake-alert-test.html']"));
         fakeAlert.click();
         MyFunc.bekle(2);
-        WebElement show= driver.findElement(By.cssSelector("[value='Show modal dialog']"));
+        WebElement show= driver.findElement(By.xpath("//input[@value='Show modal dialog']"));
         show.click();
         MyFunc.bekle(2);
 
-        WebElement fakeButon= driver.findElement(By.cssSelector("[class='dialog-button']"));
+        WebElement fakeButon= driver.findElement(By.xpath("//button[@class='dialog-button']"));
         fakeButon.click();
         BekleKapat();
 

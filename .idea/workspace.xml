@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9af1ac5b-e7ac-4341-9642-318d4af8bd05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/homework_Xpath/task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework_Xpath/task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework_Xpath/task3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework_Xpath/task4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework_Xpath/task5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework_Xpath/task6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9af1ac5b-e7ac-4341-9642-318d4af8bd05" name="Changes" comment="Task 5 and 6 are done">
+      <change beforePath="$PROJECT_DIR$/src/homework_Xpath/task6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework_Xpath/task6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,18 +22,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "abdycoding"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;abdycoding&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/abdycoding/Selenium_Homework_Automation.git",
-    "accountId": "7cd79f7a-e2f4-48ae-b40b-36e4e1df60fa"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/abdycoding/Selenium_Homework_Automation.git&quot;,
+    &quot;accountId&quot;: &quot;7cd79f7a-e2f4-48ae-b40b-36e4e1df60fa&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -51,23 +45,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.task5.Test.executor": "Run",
-    "JUnit.task6.Test.executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.task5.Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.task6.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.task6.Test">
+}</component>
+  <component name="RunManager" selected="JUnit.task5.Test (1)">
+    <configuration name="task5.Test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_Homework_Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework_Xpath.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homework_Xpath" />
+      <option name="MAIN_CLASS_NAME" value="homework_Xpath.task5" />
+      <option name="METHOD_NAME" value="Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="task5.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Homework_Automation" />
       <extension name="coverage">
@@ -78,6 +88,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="homework" />
       <option name="MAIN_CLASS_NAME" value="homework.task5" />
+      <option name="METHOD_NAME" value="Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="task6.Test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_Homework_Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework_Xpath.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homework_Xpath" />
+      <option name="MAIN_CLASS_NAME" value="homework_Xpath.task6" />
       <option name="METHOD_NAME" value="Test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -102,6 +128,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.task5.Test (1)" />
+        <item itemvalue="JUnit.task6.Test (1)" />
         <item itemvalue="JUnit.task6.Test" />
         <item itemvalue="JUnit.task5.Test" />
       </list>
@@ -132,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725550730453</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Task 5 and 6 are done">
+      <option name="closed" value="true" />
+      <created>1725816234142</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725816234142</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,6 +185,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Task 5 done. COdes are added" />
     <MESSAGE value="Task 6 is done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 6 is done" />
+    <MESSAGE value="Task 5 and 6 are done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 5 and 6 are done" />
   </component>
 </project>
