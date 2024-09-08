@@ -2,6 +2,7 @@ package homework;
 
 import Utility.Basedriver;
 import Utility.MyFunc;
+import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -40,24 +41,14 @@ public class task1 extends Basedriver {
         WebElement submit = driver.findElement(By.cssSelector(".text-right > button:nth-child(1)"));
         submit.click();
 
-        WebElement aat1=driver.findElement(By.id("name"));
+        WebElement aat1=driver.findElement(By.xpath("//p[@id='name']"));
         System.out.println("get" + aat1.getText());
         String at=aat1.getText();
-        if (at.contains("Automation")){
-            System.out.println("Basarili");
-        }else {
-            System.out.println("Error");
-        }
+        Assert.assertTrue("Error", at.contains("Automation"));
 
-
-        WebElement a1=driver.findElement(By.id("email"));
+            WebElement a1=driver.findElement(By.xpath("//p[@id='email']"));
         String email=a1.getText();
-        if (email.contains("Testing")){
-            System.out.println("Basarili");
-        }
-        else {
-            System.out.println("Error");
-        }
+        Assert.assertTrue("Error ",email.contains("Testing"));
         BekleKapat();
 
 
